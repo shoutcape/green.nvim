@@ -3,7 +3,7 @@ local M = {}
 function M.load(style)
   style = style or "light" -- in case you support light/dark
 
-  local colors = require("skaupat.colors").setup(style)
+  local colors = require("green.colors").setup(style)
   local set_hl = vim.api.nvim_set_hl
 
   -- Basic highlights
